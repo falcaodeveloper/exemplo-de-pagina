@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*TÍTULO PRINCIPAL*/
+h1.titulo-principal {
+    text-align: center;
+    font-size: 96px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -10px;
+}
+
+/*PRIMEIRO PARÁGRAFO DA PÁGINA*/
+P.paragrafo-1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 30px;
+}
+
+/*DIV E ÂNCORA PARA REDIRECIONAR PARA A PÁGINA DO GITHUB*/
+div.perfil-ulisses {
+    background-color: #116dff;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    border-radius: 60px;
+    margin: auto;
+}
+
+a.perfil-ulisses {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+/*IMAGEM AURORA NO CENTRO DA PÁGINA*/
+    img.aurora {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    p.informacoes-imagem {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 5px;
+    }
+
+    p.informacoes-imagem > a {
+        text-decoration: none;
+    }
+
+/*DIV EM AZUL*/
+    div.div-principal {
+        display: flex;
+        background-color: #0b3083;
+        margin: -8px;
+        padding: 100px;
+    }
+
+    div.div-secundaria-a {    
+        color: #ffffff;
+        width: 40%;   
+        margin-left: 30px;
+    }
+
+    div.div-secundaria-b {
+        color: #ffffff;
+        width: 40%;
+        margin-left: 200px;
+    }
+
+    div.div-secundaria-b > a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+/*DIV INICIAL*/
+div.div-inicial {
+    display: flex;
+}
+
+div.div-inicial > img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+/*DIV VERDE*/
+    div.div-verde {
+        background-color: #0c6645;
+        padding: 100px;
+        margin-top: 8px;
+        margin-left: -8px;
+        width: 35%;
+    }
+
+    div.div-verde > h2 {
+        font-size: 48px;
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    div.div-verde > p {
+        color: #ffffff;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+        /*DIV VERDE SECUNDARIA*/
+        div.div-verde-secundaria {
+            display: flex;
+            margin-top: 70px;
+        }
+
+        div.div-verde-secundaria > div > h3 {
+            color: #ffffff;
+            margin-left: 30px;
+        }
+
+        div.div-verde-secundaria > div > p {
+            color: #ffffff;
+            margin-left: 30px;
+        }
